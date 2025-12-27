@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DangThieniOSCheat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oxanium:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="12" y1="8" x2="12" y2="16" />
+                    <line x1="8" y1="12" x2="16" y2="12" />
+                </svg>
+            </div>
+            
+            <div class="sidebar-items">
+                <button class="sidebar-item active" data-tab="aimbot" title="Aimbot">
+                    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/><path d="M12 2v8M12 14v8M2 12h8M14 12h8"/></svg>
+                </button>
+                <button class="sidebar-item" data-tab="visuals" title="Visuals">
+                    <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
+                <button class="sidebar-item" data-tab="misc" title="Misc">
+                    <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                </button>
+                <button class="sidebar-item" data-tab="security" title="Security">
+                    <svg viewBox="0 0 24 24"><path d="M12 1L3 5v7c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+                </button>
+                <button class="sidebar-item" data-tab="config" title="Config">
+                    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6m6 0h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"/></svg>
+                </button>
+                <button class="sidebar-item" data-tab="settings" title="Settings">
+                    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6m6 0h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"/></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- MAIN -->
+        <div class="main">
+            <!-- HEADER -->
+            <div class="header">
+                <div class="header-search">
+                    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                    <input type="text" placeholder="Search features...">
+                </div>
+
+                <div class="header-right">
+                    <div class="status-badge">
+                        <div class="status-dot"></div>
+                        UNDETECTED
+                    </div>
+                    
+                    <svg viewBox="0 0 24 24"><path d="M18 8A6 6 0 0 0 6 8m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><circle cx="12" cy="20" r="1"/></svg>
+                    
+                    <div class="avatar">
+                        <div class="avatar-inner">
+                            <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTENT -->
+            <div class="content">
+                <div class="content-left">
+                    <!-- TITLE SECTION -->
+                    <div class="section-header">
+                        <div class="section-header-title">
+                            <h1>Aimbot <span class="highlight">DangThieniOSCheat</span></h1>
+                            <p>Fine-tune your combat assistance parameters.</p>
+                        </div>
+                        <div class="section-header-buttons">
+                            <button class="btn">Load Config</button>
+                            <button class="btn btn-primary">Save Config</button>
+                        </div>
+                    </div>
+
+                    <!-- GENERAL PANEL -->
+                    <div class="glass-panel">
+                        <div class="panel-header">
+                            <h2><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/><path d="M12 2v8M12 14v8M2 12h8M14 12h8"/></svg> General Settings</h2>
+                            <div class="panel-version">V 2.4.1</div>
+                        </div>
+                        <div class="panel-content">
+                            <div class="toggle-item">
+                                <div class="toggle-label">
+                                    <div class="toggle-label-main">Enable Aimbot</div>
+                                    <div class="toggle-label-sub">Master switch for aim assistance module</div>
+                                </div>
+                                <div class="toggle-switch active" data-toggle="aimbot">
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="toggle-item">
+                                <div class="toggle-label">
+                                    <div class="toggle-label-main">Silent Aim</div>
+                                    <div class="toggle-label-sub">Bullets hit target without snapping view</div>
+                                </div>
+                                <div class="toggle-switch" data-toggle="silent">
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+
+                            <div class="toggle-item">
+                                <div class="toggle-label">
+                                    <div class="toggle-label-main">Prediction</div>
+                                    <div class="toggle-label-sub">Account for bullet drop and travel time</div>
+                                </div>
+                                <div class="toggle-switch" data-toggle="prediction">
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+
+                            <div class="toggle-item">
+                                <div class="toggle-label">
+                                    <div class="toggle-label-main">Auto Fire</div>
+                                    <div class="toggle-label-sub">Automatically fire when target is in crosshair</div>
+                                </div>
+                                <div class="toggle-switch" data-toggle="autofire">
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TARGET SELECTION PANEL -->
+                    <div class="glass-panel">
+                        <div class="panel-header">
+                            <h2><svg viewBox="0 0 24 24"><path d="M12 1L3 5v7c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg> Target Selection</h2>
+                        </div>
+                        <div class="panel-content">
+                            <div class="dropdown-item">
+                                <label>Aim Mode</label>
+                                <select>
+                                    <option>Vectored</option>
+                                    <option>Closest to Crosshair</option>
+                                    <option>Lowest Health</option>
+                                </select>
+                            </div>
+
+                            <div class="toggle-item">
+                                <div class="toggle-label">
+                                    <div class="toggle-label-main">Ignore Bots</div>
+                                </div>
+                                <div class="toggle-switch active" data-toggle="ignorebots">
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+
+                            <div class="toggle-item">
+                                <div class="toggle-label">
+                                    <div class="toggle-label-main">Ignore Knocked</div>
+                                </div>
+                                <div class="toggle-switch active" data-toggle="ignoreknocked">
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+
+                            <div class="toggle-item">
+                                <div class="toggle-label">
+                                    <div class="toggle-label-main">Visible Only</div>
+                                </div>
+                                <div class="toggle-switch active" data-toggle="visibleonly">
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+
+                            <div class="toggle-item">
+                                <div class="toggle-label">
+                                    <div class="toggle-label-main">Ignore in Vehicle</div>
+                                </div>
+                                <div class="toggle-switch active" data-toggle="ignorevehicle">
+                                    <div class="toggle-slider"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HUMANIZATION PANEL -->
+                    <div class="glass-panel">
+                        <div class="panel-header">
+                            <h2><svg viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg> Humanization</h2>
+                        </div>
+                        <div class="panel-content">
+                            <div class="slider-group">
+                                <div class="slider-header">
+                                    <label class="slider-label">FOV Radius</label>
+                                    <span class="slider-value" id="fov-value">45°</span>
+                                </div>
+                                <input type="range" class="slider" id="fov-slider" min="0" max="180" value="45">
+                            </div>
+
+                            <div class="slider-group">
+                                <div class="slider-header">
+                                    <label class="slider-label">Smoothing</label>
+                                    <span class="slider-value" id="smooth-value">5ms</span>
+                                </div>
+                                <input type="range" class="slider" id="smooth-slider" min="0" max="20" value="5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-right">
+                    <!-- VISUALIZER -->
+                    <div class="visualizer">
+                        <div class="visualizer-grid"></div>
+                        <div class="visualizer-label">PREVIEW :: LIVE_FEED</div>
+                        
+                        <div class="visualizer-content">
+                            <div class="fov-circle" id="fov-circle" style="width: 135px; height: 135px;">
+                                <div class="fov-center"></div>
+                            </div>
+
+                            <div class="preview-canvas">
+                                <div class="character" id="character">
+                                    <div class="character-head"></div>
+                                    <div class="character-body"></div>
+                                    <div class="character-arms"></div>
+                                    <div class="character-legs">
+                                        <div class="leg"></div>
+                                        <div class="leg"></div>
+                                    </div>
+                                </div>
+
+                                <div class="esp-box">
+                                    <div class="esp-header">
+                                        <span>ENEMY</span>
+                                        <span>120m</span>
+                                    </div>
+                                    <div class="esp-health">
+                                        <div class="esp-health-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="visualizer-stats">
+                            <div class="stat">
+                                <span>TARGET_LOCK</span>
+                                <span class="stat-value" id="target-lock">ENGAGED</span>
+                            </div>
+                            <div class="stat">
+                                <span>VISIBILITY</span>
+                                <span class="stat-value green">CLEAR</span>
+                            </div>
+                            <div class="stat">
+                                <span>DISTANCE</span>
+                                <span class="stat-value">45.2m</span>
+                            </div>
+                        </div>
+
+                        <div class="visualizer-footer">
+                            <div class="footer-time">RENDER_TIME: 1.2ms</div>
+                            <div class="footer-indicators">
+                                <div class="indicator"></div>
+                                <div class="indicator"></div>
+                                <div class="indicator"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STATUS CARD -->
+                    <div class="status-card">
+                        <h3>System Status</h3>
+                        <div class="status-grid">
+                            <div class="status-item">
+                                <div class="status-item-label">Subscription</div>
+                                <div class="status-item-value">LIFETIME</div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-item-label">Last Update</div>
+                                <div class="status-item-value">2 HRS AGO</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
